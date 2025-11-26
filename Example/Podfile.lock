@@ -1,0 +1,23 @@
+PODS:
+  - FSDaySchedule (0.0.1):
+    - SnapKit
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - FSDaySchedule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  FSDaySchedule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSDaySchedule: bf7fb71621b0ebfb1be094528452a5bffc4bab97
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 6077bb533a794d60c6dc113a54917a436e5f5b12
+
+COCOAPODS: 1.16.2

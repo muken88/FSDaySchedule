@@ -1,0 +1,6 @@
+framework module Pods_FSDaySchedule_Tests {
+  umbrella header "Pods-FSDaySchedule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

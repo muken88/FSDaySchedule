@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.4'
+
+target 'FSDaySchedule_Example' do
+  pod 'FSDaySchedule', :path => '../'
+
+  target 'FSDaySchedule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
