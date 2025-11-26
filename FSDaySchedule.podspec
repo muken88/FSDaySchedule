@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liaoyu/FSDaySchedule'
+  s.homepage         = 'https://github.com/muken88/FSDaySchedule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liaoyu' => '449540412@qq.com' }
-  s.source           = { :git => 'https://github.com/liaoyu/FSDaySchedule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/muken88/FSDaySchedule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.4'
@@ -41,5 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.swift_version = '5.0'
 
-  s.dependency 'SnapKit'
+  s.dependency 'SnapKit', '~> 5.7.1'
 end
