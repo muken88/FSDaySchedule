@@ -1,0 +1,6 @@
+framework module FSDaySchedule {
+  umbrella header "FSDaySchedule-umbrella.h"
+
+  export *
+  module * { export * }
+}
